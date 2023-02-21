@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["plugin:vue/vue3-essential", "airbnb-base"],
+    "overrides": [
+        {
+            "files": [
+                "*.vue"
+            ],
+            "rules": {
+                "indent": "off"
+            }
+        }
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": ["vue"],
+    "rules": {
+        "max-len": "off",
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "vue/html-indent": [
+            "error",
+            4
+        ],
+        "vue/script-indent": [
+            "error",
+            4,
+            {
+                "baseIndent": 1,
+                "switchCase": 1
+            }
+        ]
+    }
+}
