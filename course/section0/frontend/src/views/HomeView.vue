@@ -133,7 +133,7 @@
 </template>
 
 <script setup>
-    import { STATUSES } from 'common/constants';
+    import { STATUSES } from '../common/constants';
     import columns from '../mocks/columns.json';
     import users from '../mocks/users.json';
     import rawTasks from '../mocks/tasks.json';
