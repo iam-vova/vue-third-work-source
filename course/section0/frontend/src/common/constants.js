@@ -1,24 +1,24 @@
 export const STATUSES = [
     {
         label: 'Важно, не срочно',
-        value: 'green'
+        value: 'green',
     },
     {
         label: 'Срочно, не важно',
-        value: 'orange'
+        value: 'orange',
     },
     {
         label: 'Срочно, важно',
-        value: 'red'
+        value: 'red',
     },
     {
         label: 'Дедлайн',
-        value: 'time'
+        value: 'time',
     },
     {
         label: 'Просрочено',
-        value: 'alert'
-    }
+        value: 'alert',
+    },
 ];
 
 export const SEC = 1000;
